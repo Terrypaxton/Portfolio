@@ -9,7 +9,8 @@ const projects = [
         tags: "HTML · CSS · JS · Figma",
         desc: "Responsive personal portfolio featuring dual career paths. Designed with Figma prototyping and built using modern web development practices including custom GSAP animations.",
         stack: ["HTML5", "CSS3", "JavaScript", "React", "GSAP"],
-        link: "#",
+        link: "https://portfolio-seven-flax-xtx8gt7xit.vercel.app/",
+        source: "https://github.com/Terrypaxton/Portfolio.git",
         color: "coral"
     },
     {
@@ -17,7 +18,8 @@ const projects = [
         tags: "Java · APIs · Vanilla JS",
         desc: "A comprehensive Java-based Library Management System featuring a custom HTTP server REST API and a web-based Dashboard to manage the catalog (Add, Issue, Return, Delete).",
         stack: ["Java (JDK Server)", "HTML5", "Vanilla CSS", "JavaScript"],
-        link: "#",
+        link: "https://github.com/Terrypaxton/library_management.git",
+        source: "https://github.com/Terrypaxton/library_management.git",
         color: "lavender"
     }
 ];
@@ -98,7 +100,7 @@ const Projects = () => {
                                         ))}
                                     </div>
 
-                                    <a href={project.link} className="inline-flex items-center gap-2 font-bold text-ink hover:text-coral transition-colors group/btn">
+                                    <a href={project.source} className="inline-flex items-center gap-2 font-bold text-ink hover:text-coral transition-colors group/btn">
                                         <Github size={20} />
                                         <span>View Source Code</span>
                                         <motion.span
