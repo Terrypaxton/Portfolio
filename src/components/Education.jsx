@@ -110,7 +110,7 @@ const Education = () => {
 
                                 <div className="inline-flex items-center gap-2 px-4 py-2 bg-cream rounded-xl text-ink border border-ink/5">
                                     <span className="font-bold">CGPA:</span>
-                                    <span className="text-coral font-black text-lg">70%</span>
+                                    <span className="text-coral font-black text-lg">71%</span>
                                 </div>
                             </div>
                         </div>
@@ -136,7 +136,7 @@ const Education = () => {
 
                                 <div className="inline-flex items-center gap-2 px-4 py-2 bg-cream rounded-xl text-ink border border-ink/5">
                                     <span className="font-bold">Score:</span>
-                                    <span className="text-lavender font-black text-lg">59%</span>
+                                    <span className="text-lavender font-black text-lg">62%</span>
                                 </div>
                             </div>
                         </div>

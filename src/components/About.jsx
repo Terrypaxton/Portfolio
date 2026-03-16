@@ -119,12 +119,12 @@ const About = () => {
 
                         <div className="gsap-fade-up flex items-center gap-6 pt-4 border-t border-ink/10">
                             <div>
-                                <span className="block font-black text-ink text-2xl">70%</span>
+                                <span className="block font-black text-ink text-2xl">71%</span>
                                 <span className="text-sm text-muted uppercase tracking-wider font-bold">College CGPA</span>
                             </div>
                             <div className="w-px h-10 bg-ink/10"></div>
                             <div>
-                                <span className="block font-black text-ink text-2xl">58%</span>
+                                <span className="block font-black text-ink text-2xl">62%</span>
                                 <span className="text-sm text-muted uppercase tracking-wider font-bold">HSC Score</span>
                             </div>
                         </div>
